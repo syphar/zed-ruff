@@ -1,0 +1,11 @@
+id = "ruff"
+name = "Ruff"
+description = "Ruff LSP"
+version = "0.1.0"
+schema_version = 1
+authors = ["Denis Cornehl <denis@cornehl.org>"]
+repository = "https://github.com/syphar/zed-ruff"
+
+[language_servers.ruff]
+languages = ["Python"]
+name = "ruff-lsp"
