@@ -13,6 +13,7 @@ impl zed::Extension for RuffExtension {
         _language_server_id: &LanguageServerId,
         worktree: &zed::Worktree,
     ) -> Result<zed::Command> {
+        println!("some logging message");
         let Some(ruff_bin) = worktree.which("ruff-lsp") else {
             return Err("ruff-lsp not available".to_string());
         };

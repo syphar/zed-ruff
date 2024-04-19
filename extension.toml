@@ -7,5 +7,5 @@ authors = ["Denis Cornehl <denis@cornehl.org>"]
 repository = "https://github.com/syphar/zed-ruff"
 
 [language_servers.ruff]
-language = "Python"
-name = "ruff-lsp"
+name = "ruff"
+languages = ["Python"]
